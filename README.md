@@ -13,8 +13,6 @@ Para controlar as sondas, a NASA envia uma simples sequência de letras. As letr
 
 Nesta malha o ponto ao norte de (x,y) é sempre (x, y+1).
 
-# Objetivo :pushpin:
-Criar um programa que processe uma série de instruções enviadas para as sondas que estão explorando o planalto.
 
 ### Entrada
 A primeira linha da entrada de dados é a coordenada do ponto superior-direito da malha do planalto. A inferior esquerda sempre será (0,0).
@@ -24,6 +22,10 @@ O resto da entrada será informação das sondas que foram implantadas. Cada son
 A posição é representada por dois inteiros e uma letra separados por espaços, correpondendo à coordenada X-Y e à direção da sonda.
 Cada sonda será controlada sequencialmente, o que quer dizer que a segunda sonda só irá se movimentar após que a primeira tenha terminado suas instruções.
 
+
 ### Saída
 
 A saída deverá contar uma linha para cada sonda, na mesma ordem de entrada, indicando sua coordenada final e direção.
+
+# Objetivo :pushpin:
+Com base nas informações apresentadas, criar um programa que processe uma série de instruções enviadas para as sondas que estão explorando o planalto.
